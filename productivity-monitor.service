@@ -1,0 +1,18 @@
+[Unit]
+Description=Employee Productivity Monitor
+After=graphical-session.target
+PartOf=graphical-session.target
+
+[Service]
+Type=simple
+# Adjust the path below to wherever productivity_monitor.py lives
+ExecStart=/usr/bin/python3 %h/productivity_monitor/productivity_monitor.py --output %h/productivity_monitor/logs/productivity_log.txt
+Restart=on-failure
+RestartSec=5
+
+# Needed so pynput can read keyboard/mouse input
+Environment=DISPLAY=:0
+Environment=XAUTHORITY=%h/.Xauthority
+
+[Install]
+WantedBy=default.target
