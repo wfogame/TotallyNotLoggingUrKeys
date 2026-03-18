@@ -1,4 +1,4 @@
-THIS IS A VIBE CODED PROJECT
+THIS IS A VIBE CODED PROJECT STABILITY IS NOT TESTED USE AT YOUR OWN RISKS.
 # Workforce Productivity Monitor
 
 > **Internal tool — private repository. Do not share outside the organisation.**
