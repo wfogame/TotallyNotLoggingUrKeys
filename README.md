@@ -1,3 +1,4 @@
+THIS IS A VIBE CODED PROJECT
 # Workforce Productivity Monitor
 
 > **Internal tool — private repository. Do not share outside the organisation.**
